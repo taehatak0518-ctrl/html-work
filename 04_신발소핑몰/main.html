@@ -95,6 +95,30 @@
          * {
             box-sizing: border-box;
          }
+         .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            max-width: 1000px;
+            margin: 50px auto;
+         }
+         .product-container div {
+            width: 25%;
+            text-align: center;
+         }
+         /* 반응형 레이아웃은 css의 맨 밑에 둔다*/
+         /* 768px 이하 : 테블릿 사이즈 */
+         @media(max-width: 768px){
+            .main-title {
+               font-size: 30px;
+            }
+            }
+         .product-container div {
+            width: 25%;
+            text-align: center;
+         }
+         
+         
        </style>
 <body>
     <div class="main-background">
@@ -140,5 +164,36 @@
             </form>
          </div>
       </div>
+      <!-- 제품설명 영역 -->
+       <div class="product-contaiter">
+         <div>
+            <h4>Fast shipping</h4>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi quasi pariatur ab. Obcaecati atque odio sunt explicabo molestias temporibus! Ea incidunt veritatis culpa praesentium nemo. Accusantium commodi fugit laborum!
+            </p>
+            <div>
+            <h4>Good Service</h4>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi quasi pariatur ab. Obcaecati atque odio sunt explicabo molestias temporibus! Ea incidunt veritatis culpa praesentium nemo. Accusantium commodi fugit laborum!
+            </p>
+            <div>
+            <h4>Free Coupons</h4>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi quasi pariatur ab. Obcaecati atque odio sunt explicabo molestias temporibus! Ea incidunt veritatis culpa praesentium nemo. Accusantium commodi fugit laborum!
+            </p>
+            <div>
+            <h4>New Products</h4>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi quasi pariatur ab. Obcaecati atque odio sunt explicabo molestias temporibus! Ea incidunt veritatis culpa praesentium nemo. Accusantium commodi fugit laborum!
+            </p>
+            
+            
+         </div>
+         </div>
+         </div>
+         </div>
+
+         </div>
+       </div>
 </body>
-</html>
+</html>g
